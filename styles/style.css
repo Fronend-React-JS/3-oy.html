@@ -5,5 +5,20 @@
 }
 
 header{
-    display: flex;
+    width: 1440px;
+    height: auto;
+    background-color: aqua;
 }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    max-width: 172px;
+    height: auto;
+}    
+
+.header
