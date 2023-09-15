@@ -382,7 +382,7 @@ main {
   gap: 13px;
 }
 
-.vegetable img:hover{
+.vegetable img:hover {
   transform: scale(1.2, 1.2);
 }
 
@@ -433,7 +433,7 @@ main {
 .right-eating h2 {
   width: 380px;
   color: var(--title-text-color);
-  font-family: 'Libre Baskerville';
+  font-family: "Libre Baskerville";
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -441,7 +441,7 @@ main {
   margin-bottom: 24px;
 }
 
-.right-eating p{
+.right-eating p {
   color: var(--black-text-color);
   font-family: "Josefin Sans";
   font-size: 18px;
@@ -451,19 +451,19 @@ main {
   margin-bottom: 24px;
 }
 
-.right-eating button{
+.right-eating button {
   padding: 10px 22px;
-  background: #023F3A;
+  background: #023f3a;
   transition: all 0.5s;
   color: #fff;
-  border: 2px solid #023F3A;
+  border: 2px solid #023f3a;
 }
 
-.right-eating button:hover{
-  border: 2px solid #023F3A;
+.right-eating button:hover {
+  border: 2px solid #023f3a;
   border-radius: 5px;
   background-color: transparent;
-  color: #023F3A;
+  color: #023f3a;
 }
 
-
+/*  */
