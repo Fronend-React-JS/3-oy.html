@@ -285,7 +285,8 @@ main {
   width: 100%;
   height: 533px;
   height: auto;
-  background: #F2EEE9; 
+  background: #f2eee9;
+  padding: 64px;
 }
 
 .hero--main3 h1 {
@@ -296,8 +297,7 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 57.6px */
-  padding-bottom: 64px;
-  padding-top: 64px;
+  margin-bottom: 50px;
 }
 
 .hero--main3__information {
@@ -320,24 +320,150 @@ main {
   padding-bottom: 60px;
 }
 
-.information--first-on p{
+.information--first-on p {
   color: var(--black-text-color);
   text-align: center;
   font-family: "Josefin Sans";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 130%; 
+  line-height: 130%;
 }
 
-.information--first-on h3{
+.information--first-on h3 {
   color: var(--black-text-color);
   text-align: center;
-  font-family: 'Libre Baskerville';
+  font-family: "Libre Baskerville";
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 145.455% */
+}
+
+/* hero--main4 css */
+
+.hero--main4 {
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+}
+
+.hero--main4 h1 {
+  color: var(--title-text-color);
+  text-align: center;
+  font-family: "Libre Baskerville";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 64px;
+}
+
+.vegetables {
+  width: 1110px;
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.vegetables img {
+  width: 255px;
+  height: 275.676px;
+  flex-shrink: 0;
+  transition: all 0.5s;
+}
+
+.vegetable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.vegetable img:hover{
+  transform: scale(1.2, 1.2);
+}
+
+.vegetable p {
+  color: var(--title-text-color);
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
+}
+
+/* hero--main5 css */
+
+.hero--main5 {
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+}
+
+.life {
+  width: 1110px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 64px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 125px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video {
+  width: 540px;
+  height: 363px;
+  border-radius: 12px;
+  background: #bdbdbd;
+}
+
+.right-eating {
+  width: 445px;
+  height: auto;
+}
+
+.right-eating h2 {
+  width: 380px;
+  color: var(--title-text-color);
+  font-family: 'Libre Baskerville';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 38.4px */
+  margin-bottom: 24px;
+}
+
+.right-eating p{
+  color: var(--black-text-color);
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 23.4px */
+  margin-bottom: 24px;
+}
+
+.right-eating button{
+  padding: 10px 22px;
+  background: #023F3A;
+  transition: all 0.5s;
+  color: #fff;
+  border: 2px solid #023F3A;
+}
+
+.right-eating button:hover{
+  transform: scale(1.2, 1.2);
+  border: 2px solid #023F3A;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #023F3A;
 }
 
 
