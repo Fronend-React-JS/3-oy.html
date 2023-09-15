@@ -270,11 +270,74 @@ main {
   margin-bottom: 64px;
 }
 
-.hero--main2__choose img{
-    transition: all 0.5s;
+.hero--main2__choose img {
+  transition: all 0.5s;
 }
 
-.hero--main2 img:hover{
-    transform: scale(1.2, 1.2);
+.hero--main2 img:hover {
+  transform: scale(1.2, 1.2);
 }
+
+/* hero--main3 css */
+
+.hero--main3 {
+  max-width: 1440px;
+  width: 100%;
+  height: 533px;
+  height: auto;
+  background: #F2EEE9; 
+}
+
+.hero--main3 h1 {
+  color: var(--title-text-color);
+  text-align: center;
+  font-family: "Libre Baskerville";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  padding-bottom: 64px;
+  padding-top: 64px;
+}
+
+.hero--main3__information {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+
+.information--first-on {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  width: 327px;
+  height: auto;
+  gap: 30px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.information--first-on p{
+  color: var(--black-text-color);
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; 
+}
+
+.information--first-on h3{
+  color: var(--black-text-color);
+  text-align: center;
+  font-family: 'Libre Baskerville';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 145.455% */
+}
+
 
